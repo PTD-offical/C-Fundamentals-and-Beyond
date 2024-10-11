@@ -1,0 +1,13 @@
+pacman -Syu
+pacman -Su
+
+/////////////////Go To 64bit
+pacman -Ss gcc
+pacman -Ss mingw-w64-x86_64-gcc
+pacman -Ss gdb
+pacman -S mingw-w64-x86_64-gdb
+
+////////////////check version
+gcc --version 
+g++ --version
+gdb --version
